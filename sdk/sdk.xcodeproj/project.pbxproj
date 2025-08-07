@@ -41,6 +41,12 @@
 		4E812F3A28F9A4ED0087ACC9 /* AlgoframeMeetView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E812F3628F9A4ED0087ACC9 /* AlgoframeMeetView+Private.m */; };
 		4ED4FFF32721B9B90074E620 /* AlgoframeAudioSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED4FFF12721B9B90074E620 /* AlgoframeAudioSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED4FFF42721B9B90074E620 /* AlgoframeAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4FFF22721B9B90074E620 /* AlgoframeAudioSession.m */; };
+		677FF0842E4474D6002469E6 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 677FF0832E4474D6002469E6 /* main.jsbundle */; };
+		677FF0852E4475A9002469E6 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 677FF0832E4474D6002469E6 /* main.jsbundle */; };
+		67E303032E4497BB0042ABEC /* hermes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E303022E4497BB0042ABEC /* hermes.xcframework */; };
+		67E303042E4497BB0042ABEC /* hermes.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67E303022E4497BB0042ABEC /* hermes.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		67E3035E2E44A96E0042ABEC /* hermes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E303022E4497BB0042ABEC /* hermes.xcframework */; };
+		67E3035F2E44A96E0042ABEC /* hermes.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67E303022E4497BB0042ABEC /* hermes.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6F08DF7D4458EE3CF3F36F6D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		9A8EE79C77C17743BB66E8BD /* libPods-AlgoframeMeetSDKLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B46497DE9A95BDF5E312AF48 /* libPods-AlgoframeMeetSDKLite.a */; };
 		A4A934E9212F3ADB001E9388 /* Dropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A934E8212F3ADB001E9388 /* Dropbox.m */; };
@@ -113,6 +119,31 @@
 		DEFE535621FB2E8300011A3A /* ReactUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFE535521FB2E8300011A3A /* ReactUtils.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		67E303052E4497BB0042ABEC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				67E303042E4497BB0042ABEC /* hermes.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E303602E44A96E0042ABEC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				67E3035F2E44A96E0042ABEC /* hermes.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		09A78016288AF50ACD28A10D /* Pods-AlgoframeMeetSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoframeMeetSDK.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AlgoframeMeetSDK/Pods-AlgoframeMeetSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		0B412F161EDEC65D00B1A0A6 /* AlgoframeMeetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoframeMeetView.h; sourceTree = "<group>"; };
@@ -126,7 +157,7 @@
 		0BB9AD781F5EC6D7001C08DB /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		0BB9AD7A1F5EC8F4001C08DB /* CallKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallKit.m; sourceTree = "<group>"; };
 		0BB9AD7C1F60356D001C08DB /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
-		0BC4B8681F8C01E100CE8B21 /* CallKitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CallKitIcon.png; path = "../../react/features/mobile/call-integration/CallKitIcon.png"; sourceTree = "<group>"; };
+		0BC4B8681F8C01E100CE8B21 /* CallKitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CallKitIcon.png; path = ../img/CallKitIcon.png; sourceTree = "<group>"; };
 		0BCA495C1EC4B6C600B793EE /* AudioMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioMode.m; sourceTree = "<group>"; };
 		0BCA495D1EC4B6C600B793EE /* POSIX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSIX.m; sourceTree = "<group>"; };
 		0BCA495E1EC4B6C600B793EE /* Proximity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proximity.m; sourceTree = "<group>"; };
@@ -145,6 +176,8 @@
 		4ED4FFF12721B9B90074E620 /* AlgoframeAudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgoframeAudioSession.h; sourceTree = "<group>"; };
 		4ED4FFF22721B9B90074E620 /* AlgoframeAudioSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgoframeAudioSession.m; sourceTree = "<group>"; };
 		4ED4FFF52721BAE10074E620 /* AlgoframeAudioSession+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgoframeAudioSession+Private.h"; sourceTree = "<group>"; };
+		677FF0832E4474D6002469E6 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.jsbundle; path = ../resources/main.jsbundle; sourceTree = "<group>"; };
+		67E303022E4497BB0042ABEC /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "../Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
 		86389F55993FAAF6AEB3FA3E /* Pods-AlgoframeMeetSDKLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoframeMeetSDKLite.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AlgoframeMeetSDKLite/Pods-AlgoframeMeetSDKLite.release.xcconfig"; sourceTree = "<group>"; };
 		891FE43DAD30BC8976683100 /* Pods-AlgoframeMeetSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoframeMeetSDK.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AlgoframeMeetSDK/Pods-AlgoframeMeetSDK.release.xcconfig"; sourceTree = "<group>"; };
 		8F48C340DE0D91D1012976C5 /* Pods-AlgoframeMeetSDKLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoframeMeetSDKLite.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AlgoframeMeetSDKLite/Pods-AlgoframeMeetSDKLite.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +229,7 @@
 				0BB9AD771F5EC6CE001C08DB /* CallKit.framework in Frameworks */,
 				6F08DF7D4458EE3CF3F36F6D /* BuildFile in Frameworks */,
 				3453F4A32680898C4A40E821 /* libPods-AlgoframeMeetSDK.a in Frameworks */,
+				67E303032E4497BB0042ABEC /* hermes.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9A0162289A9A9A00E41CBB /* Intents.framework in Frameworks */,
+				67E3035E2E44A96E0042ABEC /* hermes.xcframework in Frameworks */,
 				DE9A0163289A9A9A00E41CBB /* CallKit.framework in Frameworks */,
 				9A8EE79C77C17743BB66E8BD /* libPods-AlgoframeMeetSDKLite.a in Frameworks */,
 			);
@@ -225,6 +260,7 @@
 		0BD906DB1EC0C00300C8C18E = {
 			isa = PBXGroup;
 			children = (
+				677FF0832E4474D6002469E6 /* main.jsbundle */,
 				9C3C6FA2341729836589B856 /* Frameworks */,
 				C5E72ADFC30ED96F9B35F076 /* Pods */,
 				0BD906E61EC0C00300C8C18E /* Products */,
@@ -300,6 +336,7 @@
 		9C3C6FA2341729836589B856 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67E303022E4497BB0042ABEC /* hermes.xcframework */,
 				0BB9AD761F5EC6CE001C08DB /* CallKit.framework */,
 				0B93EF7A1EC608550030D24D /* CoreText.framework */,
 				0BB9AD781F5EC6D7001C08DB /* Intents.framework */,
@@ -421,8 +458,8 @@
 				0BD906E11EC0C00300C8C18E /* Frameworks */,
 				0BD906E31EC0C00300C8C18E /* Resources */,
 				DE17D0D426E0B86300F77E2E /* Copy sounds */,
-				0BCA49651EC4B77500B793EE /* Package React bundle */,
 				C7BC10B338C94EEB98048E64 /* [CP] Copy Pods Resources */,
+				67E303052E4497BB0042ABEC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -443,8 +480,8 @@
 				DE9A0161289A9A9A00E41CBB /* Frameworks */,
 				DE9A0165289A9A9A00E41CBB /* Resources */,
 				DE9A0169289A9A9A00E41CBB /* Copy sounds */,
-				DE9A016A289A9A9A00E41CBB /* Package React bundle */,
 				DE9A016B289A9A9A00E41CBB /* [CP] Copy Pods Resources */,
+				67E303602E44A96E0042ABEC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -495,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677FF0852E4475A9002469E6 /* main.jsbundle in Resources */,
 				0BC4B8691F8C03A700CE8B21 /* CallKitIcon.png in Resources */,
 				C6245F5D2053091D0040BE68 /* image-resize@2x.png in Resources */,
 				C6245F5E2053091D0040BE68 /* image-resize@3x.png in Resources */,
@@ -505,6 +543,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677FF0842E4474D6002469E6 /* main.jsbundle in Resources */,
 				DE9A0166289A9A9A00E41CBB /* CallKitIcon.png in Resources */,
 				DE9A0167289A9A9A00E41CBB /* image-resize@2x.png in Resources */,
 				DE9A0168289A9A9A00E41CBB /* image-resize@3x.png in Resources */,
@@ -514,20 +553,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BCA49651EC4B77500B793EE /* Package React bundle */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Package React bundle";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "WITH_ENVIRONMENT=\"../../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
-		};
 		26796D8589142D80C8AFDA51 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,7 +604,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SOUNDS_DIR=\"${PROJECT_DIR}/../../sounds\"\n\ncp $SOUNDS_DIR/* ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\n";
+			shellScript = "SOUNDS_DIR=\"/Users/sonai/original-repo-cloned/jitsi-meet/sounds\"\n\ncp $SOUNDS_DIR/* ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\n";
 		};
 		DE9A012E289A9A9A00E41CBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -615,21 +640,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SOUNDS_DIR=\"${PROJECT_DIR}/../../sounds\"\n\ncp $SOUNDS_DIR/* ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\n";
-		};
-		DE9A016A289A9A9A00E41CBB /* Package React bundle */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Package React bundle";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "WITH_ENVIRONMENT=\"../../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+			shellScript = "SOUNDS_DIR=\"/Users/sonai/original-repo-cloned/jitsi-meet/sounds\"\n\ncp $SOUNDS_DIR/* ${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\n";
 		};
 		DE9A016B289A9A9A00E41CBB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -784,7 +795,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -853,7 +864,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";

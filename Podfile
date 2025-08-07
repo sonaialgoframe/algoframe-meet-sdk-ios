@@ -35,16 +35,16 @@ target 'AlgoframeMeetSDK' do
     :fabric_enabled => false,
     :new_arch_enabled => false,
     # An absolute path to your application root.
-    :app_path => "#{Pod::Config.instance.installation_root}/.."
+    :app_path => "#{Pod::Config.instance.installation_root}"
   )
 
   # We use auto linking, but some dependencies are excluded from the lite build
   # (see react-native.config.js) so we add them here.
 
-  pod 'giphy-react-native-sdk', :path => '../node_modules/@giphy/react-native-sdk'
-  pod 'RNCalendarEvents', :path => '../node_modules/react-native-calendar-events'
-  pod 'RNGoogleSignin', :path => '../node_modules/@react-native-google-signin/google-signin'
-  pod 'RNWatch', :path => '../node_modules/react-native-watch-connectivity'
+  pod 'giphy-react-native-sdk', :path => "#{Pod::Config.instance.installation_root}/node_modules/@giphy/react-native-sdk"
+  pod 'RNCalendarEvents', :path => "#{Pod::Config.instance.installation_root}/node_modules/react-native-calendar-events"
+  pod 'RNGoogleSignin', :path => "#{Pod::Config.instance.installation_root}/node_modules/@react-native-google-signin/google-signin"
+  pod 'RNWatch', :path => "#{Pod::Config.instance.installation_root}/node_modules/react-native-watch-connectivity"
 
   # Native pod dependencies
   #
@@ -69,7 +69,7 @@ target 'AlgoframeMeetSDKLite' do
       :fabric_enabled => false,
       :new_arch_enabled => false,
       # An absolute path to your application root.
-      :app_path => "#{Pod::Config.instance.installation_root}/.."
+      :app_path => "#{Pod::Config.instance.installation_root}"
     )
 
     # Native pod dependencies
