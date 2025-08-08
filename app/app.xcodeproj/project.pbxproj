@@ -7,64 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B5418471F7C5D8C00A2DD86 /* MeetingRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5418461F7C5D8C00A2DD86 /* MeetingRowController.swift */; };
-		0B7001701F7C51CC005944F4 /* InCallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B70016F1F7C51CC005944F4 /* InCallController.swift */; };
-		0BEA5C291F7B8F73000D0AB4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C271F7B8F73000D0AB4 /* Interface.storyboard */; };
-		0BEA5C2B1F7B8F73000D0AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */; };
-		0BEA5C321F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0BEA5C311F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0BEA5C371F7B8F73000D0AB4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */; };
-		0BEA5C391F7B8F73000D0AB4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */; };
-		0BEA5C3B1F7B8F73000D0AB4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */; };
-		0BEA5C3D1F7B8F73000D0AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */; };
-		0BEA5C411F7B8F73000D0AB4 /* AlgoframeMeetCompanion.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0BEA5C251F7B8F73000D0AB4 /* AlgoframeMeetCompanion.app */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.storyboard */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2681BB562C7A0B42CFBA6719 /* libPods-AlgoframeMeet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6152FF9E9F7B0E86F70A21D /* libPods-AlgoframeMeet.a */; };
 		361974E2A13624D7735D619D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5C1BE20ECD5DEEB48FED90B5 /* PrivacyInfo.xcprivacy */; };
 		4341A9062CF0D63200940D93 /* hermes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4341A9052CF0D63200940D93 /* hermes.xcframework */; };
 		4341A9072CF0D63200940D93 /* hermes.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4341A9052CF0D63200940D93 /* hermes.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4E90F9402632D1AB001102D4 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90F93F2632D1AB001102D4 /* Atomic.swift */; };
 		4EB06024260E026600F524C5 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC49B8625BED71300E76218 /* ReplayKit.framework */; };
-		4EB06027260E026600F524C5 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB06026260E026600F524C5 /* SampleHandler.swift */; };
-		4EB0602B260E026600F524C5 /* AlgoframeMeetBroadcastExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EB06023260E026600F524C5 /* AlgoframeMeetBroadcastExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4EB0603C260E09D000F524C5 /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB06039260E09D000F524C5 /* SocketConnection.swift */; };
-		4EB0603D260E09D000F524C5 /* DarwinNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0603A260E09D000F524C5 /* DarwinNotificationCenter.swift */; };
-		4EB0603E260E09D000F524C5 /* SampleUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0603B260E09D000F524C5 /* SampleUploader.swift */; };
 		DEA0B7122D7EF16E0062A9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0B7112D7EF16E0062A9F6 /* ViewController.swift */; };
 		DEA0B7142D7EF7590062A9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0B7132D7EF7590062A9F6 /* AppDelegate.swift */; };
 		DEA9F289258A6EA800D4CD74 /* AlgoframeMeetSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA9F288258A6EA800D4CD74 /* AlgoframeMeetSDK.framework */; };
 		DEA9F28A258A6EA800D4CD74 /* AlgoframeMeetSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEA9F288258A6EA800D4CD74 /* AlgoframeMeetSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DED016F128ECBC9D009D5E8D /* WebRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED016F028ECBC9D009D5E8D /* WebRTC.xcframework */; };
-		DED016F228ECBC9D009D5E8D /* WebRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DED016F028ECBC9D009D5E8D /* WebRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E588011722789D43008B0561 /* AlgoframeMeetContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58801132278944E008B0561 /* AlgoframeMeetContext.swift */; };
-		E5C97B63227A1EB400199214 /* AlgoframeMeetCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C97B62227A1EB400199214 /* AlgoframeMeetCommands.swift */; };
 		FD572B9827EDF32300A800FB /* GiphyUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD572B9727EDF32300A800FB /* GiphyUISDK.xcframework */; };
 		FD572B9927EDF32300A800FB /* GiphyUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD572B9727EDF32300A800FB /* GiphyUISDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0BEA5C331F7B8F73000D0AB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BEA5C301F7B8F73000D0AB4;
-			remoteInfo = "AlgoframeMeetCompanion Extension";
-		};
-		0BEA5C3F1F7B8F73000D0AB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BEA5C241F7B8F73000D0AB4;
-			remoteInfo = AlgoframeMeetCompanion;
-		};
-		4EB06029260E026600F524C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EB06022260E026600F524C5;
-			remoteInfo = "AlgoframeMeetBroadcast Extension";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0B26BE701EC5BC3C00EEFB41 /* Embed Frameworks */ = {
@@ -76,20 +33,8 @@
 				DEA9F28A258A6EA800D4CD74 /* AlgoframeMeetSDK.framework in Embed Frameworks */,
 				4341A9072CF0D63200940D93 /* hermes.xcframework in Embed Frameworks */,
 				FD572B9927EDF32300A800FB /* GiphyUISDK.xcframework in Embed Frameworks */,
-				DED016F228ECBC9D009D5E8D /* WebRTC.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0BEA5C471F7B8F73000D0AB4 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				0BEA5C321F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0BEA5C491F7B8F73000D0AB4 /* Embed Watch Content */ = {
@@ -98,53 +43,22 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				0BEA5C411F7B8F73000D0AB4 /* AlgoframeMeetCompanion.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EC49B9025BED71300E76218 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				4EB0602B260E026600F524C5 /* AlgoframeMeetBroadcastExtension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B26BE6D1EC5BC3C00EEFB41 /* AlgoframeMeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlgoframeMeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5418461F7C5D8C00A2DD86 /* MeetingRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRowController.swift; sourceTree = "<group>"; };
-		0B70016F1F7C51CC005944F4 /* InCallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallController.swift; sourceTree = "<group>"; };
 		0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
-		0BEA5C251F7B8F73000D0AB4 /* AlgoframeMeetCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoframeMeetCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BEA5C281F7B8F73000D0AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BEA5C2C1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BEA5C311F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AlgoframeMeetCompanion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BEA5C3E1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* algoframe-meet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "algoframe-meet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = src/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0F4ED943C0B12BE77F6B45 /* Pods-AlgoframeMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoframeMeet.release.xcconfig"; path = "Target Support Files/Pods-AlgoframeMeet/Pods-AlgoframeMeet.release.xcconfig"; sourceTree = "<group>"; };
 		4341A9052CF0D63200940D93 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "../Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
-		4E90F93F2632D1AB001102D4 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
 		4EB06023260E026600F524C5 /* AlgoframeMeetBroadcastExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AlgoframeMeetBroadcastExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EB06026260E026600F524C5 /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
-		4EB06028260E026600F524C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EB06032260E08CC00F524C5 /* extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = extension.entitlements; sourceTree = "<group>"; };
-		4EB06039260E09D000F524C5 /* SocketConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConnection.swift; sourceTree = "<group>"; };
-		4EB0603A260E09D000F524C5 /* DarwinNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarwinNotificationCenter.swift; sourceTree = "<group>"; };
-		4EB0603B260E09D000F524C5 /* SampleUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleUploader.swift; sourceTree = "<group>"; };
 		4EC49B8625BED71300E76218 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		5C1BE20ECD5DEEB48FED90B5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		756FCE06C08D9B947653C98A /* Pods-AlgoframeMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoframeMeet.debug.xcconfig"; path = "Target Support Files/Pods-AlgoframeMeet/Pods-AlgoframeMeet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,19 +70,10 @@
 		DEA9F288258A6EA800D4CD74 /* AlgoframeMeetSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlgoframeMeetSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED016F028ECBC9D009D5E8D /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = ../Pods/AlgoframeWebRTC/WebRTC.xcframework; sourceTree = "<group>"; };
 		DEFDBBDB25656E3B00344B23 /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = "../../node_modules/react-native-webrtc/ios/WebRTC.xcframework"; sourceTree = "<group>"; };
-		E58801132278944E008B0561 /* AlgoframeMeetContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoframeMeetContext.swift; sourceTree = "<group>"; };
-		E5C97B62227A1EB400199214 /* AlgoframeMeetCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoframeMeetCommands.swift; sourceTree = "<group>"; };
 		FD572B9727EDF32300A800FB /* GiphyUISDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:925PGC4MV7:Giphy, Inc."; lastKnownFileType = wrapper.xcframework; name = GiphyUISDK.xcframework; path = ../Pods/Giphy/GiphySDK/GiphyUISDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BEA5C2E1F7B8F73000D0AB4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,13 +83,6 @@
 				FD572B9827EDF32300A800FB /* GiphyUISDK.xcframework in Frameworks */,
 				2681BB562C7A0B42CFBA6719 /* libPods-AlgoframeMeet.a in Frameworks */,
 				4341A9062CF0D63200940D93 /* hermes.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F021A8A5B056078665DE530 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,34 +114,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0BEA5C261F7B8F73000D0AB4 /* Watch app */ = {
-			isa = PBXGroup;
-			children = (
-				0BEA5C271F7B8F73000D0AB4 /* Interface.storyboard */,
-				0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */,
-				0BEA5C2C1F7B8F73000D0AB4 /* Info.plist */,
-			);
-			name = "Watch app";
-			path = watchos/app;
-			sourceTree = "<group>";
-		};
-		0BEA5C351F7B8F73000D0AB4 /* WatchKit extension */ = {
-			isa = PBXGroup;
-			children = (
-				0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */,
-				0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */,
-				0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */,
-				0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */,
-				0BEA5C3E1F7B8F73000D0AB4 /* Info.plist */,
-				0B70016F1F7C51CC005944F4 /* InCallController.swift */,
-				0B5418461F7C5D8C00A2DD86 /* MeetingRowController.swift */,
-				E58801132278944E008B0561 /* AlgoframeMeetContext.swift */,
-				E5C97B62227A1EB400199214 /* AlgoframeMeetCommands.swift */,
-			);
-			name = "WatchKit extension";
-			path = watchos/extension;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,22 +125,13 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		4EB06025260E026600F524C5 /* AlgoframeMeetBroadcast Extension */ = {
+		67E303672E44AB830042ABEC /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				4EB06032260E08CC00F524C5 /* extension.entitlements */,
-				4EB06026260E026600F524C5 /* SampleHandler.swift */,
-				4EB0603B260E09D000F524C5 /* SampleUploader.swift */,
-				4EB06039260E09D000F524C5 /* SocketConnection.swift */,
-				4EB0603A260E09D000F524C5 /* DarwinNotificationCenter.swift */,
-				4E90F93F2632D1AB001102D4 /* Atomic.swift */,
-				4EB06028260E026600F524C5 /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.storyboard */,
 			);
-			indentWidth = 4;
-			name = "AlgoframeMeetBroadcast Extension";
-			path = "broadcast-extension";
+			name = "Recovered References";
 			sourceTree = "<group>";
-			tabWidth = 4;
 		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
@@ -279,11 +140,9 @@
 				0B26BE711EC5BC4D00EEFB41 /* Frameworks */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				13B07FAE1A68108700A75B9A /* src */,
-				0BEA5C261F7B8F73000D0AB4 /* Watch app */,
-				0BEA5C351F7B8F73000D0AB4 /* WatchKit extension */,
-				4EB06025260E026600F524C5 /* AlgoframeMeetBroadcast Extension */,
 				CDD71F5E1157E9F283DF92A8 /* Pods */,
 				5C1BE20ECD5DEEB48FED90B5 /* PrivacyInfo.xcprivacy */,
+				67E303672E44AB830042ABEC /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -293,8 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* algoframe-meet.app */,
-				0BEA5C251F7B8F73000D0AB4 /* AlgoframeMeetCompanion.app */,
-				0BEA5C311F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension.appex */,
 				4EB06023260E026600F524C5 /* AlgoframeMeetBroadcastExtension.appex */,
 			);
 			name = Products;
@@ -313,41 +170,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BEA5C241F7B8F73000D0AB4 /* AlgoframeMeetCompanion */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "AlgoframeMeetCompanion" */;
-			buildPhases = (
-				0BEA5C231F7B8F73000D0AB4 /* Resources */,
-				0BEA5C471F7B8F73000D0AB4 /* Embed App Extensions */,
-				1F021A8A5B056078665DE530 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BEA5C341F7B8F73000D0AB4 /* PBXTargetDependency */,
-			);
-			name = AlgoframeMeetCompanion;
-			productName = AlgoframeMeetCompanion;
-			productReference = 0BEA5C251F7B8F73000D0AB4 /* AlgoframeMeetCompanion.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		0BEA5C301F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEA5C461F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "AlgoframeMeetCompanion Extension" */;
-			buildPhases = (
-				0BEA5C2D1F7B8F73000D0AB4 /* Sources */,
-				0BEA5C2E1F7B8F73000D0AB4 /* Frameworks */,
-				0BEA5C2F1F7B8F73000D0AB4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AlgoframeMeetCompanion Extension";
-			productName = "AlgoframeMeetCompanion Extension";
-			productReference = 0BEA5C311F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		13B07F861A680F5B00A75B9A /* AlgoframeMeet */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlgoframeMeet" */;
@@ -359,7 +181,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				0B26BE701EC5BC3C00EEFB41 /* Embed Frameworks */,
 				0BEA5C491F7B8F73000D0AB4 /* Embed Watch Content */,
-				4EC49B9025BED71300E76218 /* Embed App Extensions */,
 				4E81688528A408E600F8FA9E /* Update App Entitlements */,
 				DE11877A21EE09640078D059 /* Setup Google reverse URL handler */,
 				0BB7DA181EC9E695007AAE98 /* Adjust ATS */,
@@ -369,8 +190,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */,
-				4EB0602A260E026600F524C5 /* PBXTargetDependency */,
 			);
 			name = AlgoframeMeet;
 			productName = "Algoframe Meet";
@@ -404,16 +223,6 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Algoframe;
 				TargetAttributes = {
-					0BEA5C241F7B8F73000D0AB4 = {
-						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = FC967L3QRG;
-						ProvisioningStyle = Automatic;
-					};
-					0BEA5C301F7B8F73000D0AB4 = {
-						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = FC967L3QRG;
-						ProvisioningStyle = Automatic;
-					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1620;
 						SystemCapabilities = {
@@ -444,31 +253,12 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* AlgoframeMeet */,
-				0BEA5C241F7B8F73000D0AB4 /* AlgoframeMeetCompanion */,
-				0BEA5C301F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension */,
 				4EB06022260E026600F524C5 /* AlgoframeMeetBroadcastExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BEA5C231F7B8F73000D0AB4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BEA5C2B1F7B8F73000D0AB4 /* Assets.xcassets in Resources */,
-				0BEA5C291F7B8F73000D0AB4 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0BEA5C2F1F7B8F73000D0AB4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BEA5C3D1F7B8F73000D0AB4 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -610,9 +400,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AlgoframeMeet/Pods-AlgoframeMeet-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AlgoframeMeet/Pods-AlgoframeMeet-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -622,20 +416,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BEA5C2D1F7B8F73000D0AB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B7001701F7C51CC005944F4 /* InCallController.swift in Sources */,
-				E5C97B63227A1EB400199214 /* AlgoframeMeetCommands.swift in Sources */,
-				0B5418471F7C5D8C00A2DD86 /* MeetingRowController.swift in Sources */,
-				E588011722789D43008B0561 /* AlgoframeMeetContext.swift in Sources */,
-				0BEA5C391F7B8F73000D0AB4 /* ExtensionDelegate.swift in Sources */,
-				0BEA5C371F7B8F73000D0AB4 /* InterfaceController.swift in Sources */,
-				0BEA5C3B1F7B8F73000D0AB4 /* ComplicationController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,43 +429,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB0603C260E09D000F524C5 /* SocketConnection.swift in Sources */,
-				4EB0603E260E09D000F524C5 /* SampleUploader.swift in Sources */,
-				4EB0603D260E09D000F524C5 /* DarwinNotificationCenter.swift in Sources */,
-				4EB06027260E026600F524C5 /* SampleHandler.swift in Sources */,
-				4E90F9402632D1AB001102D4 /* Atomic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0BEA5C341F7B8F73000D0AB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0BEA5C301F7B8F73000D0AB4 /* AlgoframeMeetCompanion Extension */;
-			targetProxy = 0BEA5C331F7B8F73000D0AB4 /* PBXContainerItemProxy */;
-		};
-		0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0BEA5C241F7B8F73000D0AB4 /* AlgoframeMeetCompanion */;
-			targetProxy = 0BEA5C3F1F7B8F73000D0AB4 /* PBXContainerItemProxy */;
-		};
-		4EB0602A260E026600F524C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EB06022260E026600F524C5 /* AlgoframeMeetBroadcastExtension */;
-			targetProxy = 4EB06029260E026600F524C5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		0BEA5C271F7B8F73000D0AB4 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BEA5C281F7B8F73000D0AB4 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		13B07FB11A68108700A75B9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -697,155 +446,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0BEA5C421F7B8F73000D0AB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = FC967L3QRG;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IBSC_MODULE = AlgoframeMeetCompanion_Extension;
-				INFOPLIST_FILE = watchos/app/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = org.algoframe.meet.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		0BEA5C431F7B8F73000D0AB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FC967L3QRG;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IBSC_MODULE = AlgoframeMeetCompanion_Extension;
-				INFOPLIST_FILE = watchos/app/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = org.algoframe.meet.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		0BEA5C441F7B8F73000D0AB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = FC967L3QRG;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = watchos/extension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.algoframe.meet.watchkit.extension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		0BEA5C451F7B8F73000D0AB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FC967L3QRG;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = watchos/extension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.algoframe.meet.watchkit.extension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 756FCE06C08D9B947653C98A /* Pods-AlgoframeMeet.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDebug;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
@@ -853,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = W4FJWRZFZZ;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				INFOPLIST_FILE = src/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -865,7 +469,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.algoframe.meet;
+				PRODUCT_BUNDLE_IDENTIFIER = algomeet.algoframe;
 				PRODUCT_NAME = "algoframe-meet";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -882,14 +486,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E0F4ED943C0B12BE77F6B45 /* Pods-AlgoframeMeet.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRelease;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = W4FJWRZFZZ;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				INFOPLIST_FILE = src/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -901,7 +504,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.algoframe.meet;
+				PRODUCT_BUNDLE_IDENTIFIER = algomeet.algoframe;
 				PRODUCT_NAME = "algoframe-meet";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1131,24 +734,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BEA5C461F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "AlgoframeMeetCompanion Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BEA5C441F7B8F73000D0AB4 /* Debug */,
-				0BEA5C451F7B8F73000D0AB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "AlgoframeMeetCompanion" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BEA5C421F7B8F73000D0AB4 /* Debug */,
-				0BEA5C431F7B8F73000D0AB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlgoframeMeet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
